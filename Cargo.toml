@@ -3,8 +3,14 @@ name = "watcher"
 version = "0.0.1"
 edition = "2021"
 authors = ["Andelf <andelf@gmail.com>"]
-description = "File watcher"
+repository = "https://github.com/andelf/watcher-rs"
+homepage = "https://github.com/andelf/watcher-rs"
+documentation = "https://docs.rs/watcher/"
 license = "MIT OR Apache-2.0"
+keywords = ["watcher", "file", "notify", "event"]
+# categories = []
+description = "File watcher"
+readme = "README.md"
 
 [dependencies]
 notify = "4.0"
